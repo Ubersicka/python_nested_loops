@@ -20,3 +20,19 @@ rooms = int(input())
 for f in range(floors, 0, -1):
     for r in range(rooms):
         print(f'{f}{r}', end=" ")    # end - пише ги на един ред,
+--------------
+# while True:
+#     while True:  # Това е 2ри вложен цикъл
+#         continue
+#         break    # тези 3те команди работят само за 2рия вложен цикъл
+#         pass
+#     continue     # Тия 2те команди работят само за външния цикъл
+#     break
+
+number = 1
+while True:
+    while True:  # Това е 2ри вложен цикъл
+        number += 1
+        print(number)
+    while number > 5:
+        break
